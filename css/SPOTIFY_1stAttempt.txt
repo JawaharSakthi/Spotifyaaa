@@ -1,0 +1,29 @@
+<div class="main_div">
+        <div class="left">
+            <nav>
+                <ul>
+                    <li><i class="fa-brands fa-spotify"></i><span> SPOTIFY </span></li>
+                    <br><br>
+                    <li><i class="fa-sharp fa-solid fa-house"></i><span> Home</span></li>
+                    <br>
+                    <li><i class="fa-solid fa-magnifying-glass"></i><span> Search</span></li>
+                    <br>
+                    <li><i class="fa-solid fa-bars"></i><span> Your Library</span></li>
+                    <br><br><br><br>
+                    <li><i class="fa-regular fa-square-plus"></i><span> Create Playlist</span></li>
+                    <br>
+                    <li><i class="fa-regular fa-heart"></i><span> Liked Songs</span></li>
+                </ul>
+                <br><br><br>
+                <a class="cookie" href="https://www.cookieyes.com/free-cookie-policy-generator/"><span>Cookies</span></a>
+                <br><br><br>
+                <button id="button" class="language" type="button"><i class="fa-thin fa-globe"></i> English</button>
+                <!-- <button class="button">submit</button>  -->
+            </nav>
+        </div>
+        <div class="TOP">
+            <nav>
+                <!-- <img class="top_nav" src="../HTML/IMAGES/leftlogo.png" alt=""> -->
+            </nav>
+        </div>
+    </div>

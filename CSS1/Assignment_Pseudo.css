@@ -1,0 +1,41 @@
+body{
+    background-color: cornflowerblue;
+}
+p{
+    font-size: 20px;
+}
+p::first-letter{
+    color: blue;
+    font-size: 60px;
+    
+}
+span{
+    color: blue;
+    font-size: 60px;
+}
+p::first-line{
+    color: aqua;
+    font-size: 35px;
+}
+p::selection{
+    color: purple;
+    background-color: black;
+}
+p::before{
+    color: brown;
+    content: "ABOUT MYSELF=>";
+    font-size: 35px;
+}
+p::after{
+    content: "<=THANK YOU";
+    color: slateblue;
+    font-size: 30px;
+}
+li::marker{
+    color: green;
+    font-size: 30px;
+}
+
+/* p{
+    text-indent: 200px;
+} */

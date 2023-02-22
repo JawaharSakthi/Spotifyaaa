@@ -1,0 +1,32 @@
+/* id */
+#h3-1{
+    background-color: aqua;
+}
+#h3-2{
+    background-color: blueviolet;
+}
+#h3-3{
+    background-color: cadetblue;
+}
+/* class */
+.class-1{   
+    background-color: crimson;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkgoldenrod;
+}
+/* tagname */
+article{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: violet;
+}
+/* grouping */
+article,h3,pre{
+    background-color: teal;
+}
+/* universe */
+*{
+    color:blue;
+    background-color: gold;
+    font-size: larger;
+}
