@@ -232,8 +232,8 @@ div nav
 }
 .Music_box1 .mus_dir{
     font-size: 10px;
-    position: relative;
-    top: 40px;
+    position: absolute;
+    top: 250px;
     right: 36px;
     color: rgb(173, 170, 170);
 }
@@ -558,3 +558,11 @@ div nav
     right: 100px;
     color: aqua;
 }  */
+.Music_box1 .fa-solid{
+    color: whitesmoke;
+    position: relative;
+    left: 75px;
+    bottom: 60px;
+    font-size: 40px;
+}
+
