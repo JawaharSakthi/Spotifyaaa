@@ -567,26 +567,51 @@ div nav
 } */
 .float_button{
     position: absolute;
-    left: 150px;
+    left: 140px;
     top: 267px;
     opacity: 0;
-    z-index: 1;
-    transition: top 0.5s ease;
+    z-index: 11;
+    transition:  0.7s ease-out;
 }
 .float_button a{
     text-decoration: none;
-    width: 100px;
+    width: 120px;
     padding: 8px 8px;
     /* text-align: center; */
-    background-color: whitesmoke;
+    background-color:   black;
     color: whitesmoke;
     border: solid 1px grey;
     border-radius: 300px;
     z-index: 1;
+    font-size: 20px;
 }
 .Music_box1:hover .float_button{
-    top: 210px;
+    top: 175px;
 }
 .Music_box1:hover .float_button{
+    opacity: 1;
+}
+.Music_box2:hover .float_button{
+    top: 175px;
+}
+.Music_box2:hover .float_button{
+    opacity: 1;
+}
+.Music_box3:hover .float_button{
+    top: 175px;
+}
+.Music_box3:hover .float_button{
+    opacity: 1;
+}
+.Music_box4:hover .float_button{
+    top: 175px;
+}
+.Music_box4:hover .float_button{
+    opacity: 1;
+}
+.Music_box5:hover .float_button{
+    top: 175px;
+}
+.Music_box5:hover .float_button{
     opacity: 1;
 }
