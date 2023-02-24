@@ -1,0 +1,53 @@
+#d1{
+    border: 5px solid black;
+    background-color: aqua;
+    height: 100px;
+    width: 200px;
+    transition: width 3s,height 3s;
+    /* transition: background-color; */
+    transition-timing-function: ease;
+}
+#d1:hover{
+    background-color: red;
+    height: 200px;
+    width: 400px;
+}
+#d2{
+    border: 5px solid green;
+    background-color: yellow;
+    height: 100px;
+    width: 200px;
+    transition: width 3s,height 3s;
+    transition-timing-function: ease-in;
+}
+#d2:hover{
+    background-color: blue;
+    height: 200px;
+    width: 400px;
+}
+#d3{
+    border: 5px solid black;
+    background-color: salmon;
+    height: 100px;
+    width: 200px;
+    transition: width 3s,height 3s;
+    transition-timing-function: ease-out;
+}
+#d3:hover{
+    background-color: darkmagenta;
+    height: 200px;
+    width: 400px;
+}
+#d4{
+    border: 5px solid cornflowerblue;
+    background-color: darkgreen;
+    height: 100px;
+    width: 200px;
+    transition: width 3s,height 3s;
+    transition-timing-function: ease-in-out;
+}
+#d4:hover{
+    background-color: darkgoldenrod;
+    height: 200px;
+    width: 400px;
+}

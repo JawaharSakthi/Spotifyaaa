@@ -582,11 +582,12 @@ div nav
 } */
 .float_button{
     position: absolute;
-    left: 140px;
+    left: 155px;
     top: 267px;
     opacity: 0;
     z-index: 11;
     transition:  0.7s ease-out;
+    
 }
 .float_button a{
     text-decoration: none;
@@ -598,7 +599,7 @@ div nav
     border: solid 1px grey;
     border-radius: 300px;
     z-index: 1;
-    font-size: 20px;
+    
 }
 .Music_box1:hover .float_button{
     top: 175px;
