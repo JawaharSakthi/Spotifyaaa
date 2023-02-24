@@ -13,7 +13,8 @@ div{
     left: 240px;
     top: 150px;
     transition: height 3s,width 3s;
-    transition: background-color 3s; 
+    /* transition: background-color 3s; */
+     
 }
 #test:hover{
     height: 100px;
