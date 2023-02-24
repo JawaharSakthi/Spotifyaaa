@@ -1,0 +1,22 @@
+div{
+    height: 600px;
+    width: 1300px;
+    border: 7px groove blue;
+    background-color: black;
+}
+#test{
+    height: 300px;
+    width: 800px;
+    border: 7px azure groove;
+    background-color: chartreuse;
+    position: relative;
+    left: 240px;
+    top: 150px;
+    transition: height 3s,width 3s;
+    transition: background-color 3s; 
+}
+#test:hover{
+    height: 100px;
+    width: 500px;
+    background-color: red;
+}
