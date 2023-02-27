@@ -1,0 +1,134 @@
+body{
+    display: flex;
+    background-color: rgb(5, 4, 4);
+    background-image: url(../CSS1/PICS/AVENGERS_SYMBOL2.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position-x: 1000px;
+    background-position-y: 400px;
+}
+.d1{
+    border: 10px solid black;
+    height: 160px;
+    width: 250px;
+    background-image: url(../CSS1/PICS/DrStrange.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition-duration: 2s;
+    justify-content: left;
+}
+.d1:hover{
+    transform: rotate(360deg);
+}
+.d2{
+    border: 10px solid black;
+    height: 160px;
+    width: 250px;
+    background-image: url(../CSS1/PICS/SPIDEY2.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    transition-duration: 2s;
+    position: absolute;
+    right: 589px;
+}
+.d2:hover{
+    transform: scale(0.8,0.8);
+}
+.d3{
+    border: 3px solid black;
+    height: 160px;
+    width: 250px;
+    background-image: url(../CSS1/PICS/BLACK_PANTHER2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition-duration: 2s;
+    position: absolute;
+    right: 100px;
+}
+.d3:hover{
+    transform: skew(90deg);
+}
+.d4{
+    border: 10px solid black;
+    height: 160px;
+    width: 250px;
+    background-image: url(../CSS1/PICS/IRON_MAN4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition-duration: 2s;
+    position: absolute;
+    top: 200px;
+    left: 5px;
+}
+.d4:hover{
+    transform: translate(250px);
+}
+.d5{
+    border: 10px solid black;
+    height: 160px;
+    width: 250px;
+    background-image: url(../CSS1/PICS/THANOS.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    transition-duration: 5s;
+    background-size: cover;
+    position: absolute;
+    top: 200px;
+    left: 510px;
+}
+.d5:hover{
+    transform: matrix(0.8,10,10,0.8,10,10)
+} 
+.d6{
+    border: 10px solid black;
+    height: 160px;
+    width: 250px;
+    background-image: url(../CSS1/PICS/CAPTAIN.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition-duration: 5s;
+    position: absolute;
+    top: 200px;
+    left: 1010px;
+}
+.d6:hover{
+    transform: skewY(90deg);
+}
+.d7{
+    border: 10px solid black;
+    height: 160px;
+    width: 250px;
+    background-image: url(../CSS1/PICS/THOR.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition-duration: 5s;
+    position: absolute;
+    top: 390px;
+    left: 260px;
+}
+.d7:hover{
+    transform: scaleX(2);
+}
+.d8{
+    border: 10px solid black;
+    height: 160px;
+    width: 250px;
+    background-image: url(../CSS1/PICS/HULK.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition-duration: 5s;
+    position: absolute;
+    top: 390px;
+    left: 760px;
+}
+.d8:hover{
+    transform: skewY(90deg);
+}
+

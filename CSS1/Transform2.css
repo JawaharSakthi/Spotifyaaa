@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+article{
+    border: 5px dotted red;
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    transition-duration: 50s;
+}
+article:hover{
+    /* transform: rotate(-360deg);
+    transform: skew(50deg,50deg);
+    transform: skewX(100deg);
+    transform: skewY(100deg);
+    transform: scale(0.5,0.5);
+    transform: scaleX(0.5);
+    transform: scaleY(0.5);
+    transform: translateX(200px);
+    transform: translateY(200px);
+    transform: translate(200px,200px); */
+    transform: matrix(2,90,90,2,10,10);
+}
