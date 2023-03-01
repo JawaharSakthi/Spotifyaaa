@@ -1,0 +1,53 @@
+body{
+    background-color: black;   
+}
+div{
+    height: 300px;
+    width: 300px;
+    border: 10px double grey;
+    background-color: black;
+    animation-name: deco;
+    animation-duration: 5s;
+    position: absolute;
+    /* right: 10px; */
+    border-radius: 300px;
+    background-image: url(../CSS1/PICS/SPIDEY2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+@keyframes deco{
+    /* from{
+        background-color: black;
+        height: 300px;
+        width: 300px;
+        right: 10px;
+        border-radius: 0px ;
+        background-image: none;
+    }
+    to{
+        background-color: violet;
+        height: 400px;
+        width: 400px;
+        left: 10px;
+        border-radius:300px ;
+        background-image: url(../CSS1/PICS/BLACK_PANTHER2.jpg);
+    } */
+    0%{
+        transform: translateX(0) rotate(180deg,360deg);
+    }
+    25%{
+        transform: translateY(100%) rotateY(360deg);
+    }
+    50%{
+        transform: translateX(100%) rotateY(360deg) skew(12deg,45deg) translateY(100%);
+    }
+    75%{
+        transform: translateX(100%) scale(0.7,0.7) rotate(180deg);
+    }
+    100%{
+        transform: translateX(0) skew(36deg,20deg);
+    }
+}
