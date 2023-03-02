@@ -47,6 +47,8 @@ nav svg{
 nav .login{
     width: 130px;
     height: 35px;
+    border-color: white;
+    background-color: white;
     position: absolute;
     right: 505px;
     top: 8px;
