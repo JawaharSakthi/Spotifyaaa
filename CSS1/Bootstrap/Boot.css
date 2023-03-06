@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+#carouselExampleIndicators{
+    position: relative;
+    left: 150px;
+}
+#demo{
+    height: 500px;
+    width: 100%;
+    background-image: url(https://akamaividz2.zee5.com/image/upload/w_1286,h_236,c_scale,f_webp,q_auto:eco/resources/0-6-4z5311140/homefeed_launcher_sticker/1312x312f0f3b262c0d7407f8ab773eeb3d4d60a.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    top: 10px;
+    left: 25px;
+}

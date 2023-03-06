@@ -15,8 +15,7 @@ div{
     background-repeat: no-repeat;
     background-size: contain;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
-    
+    animation-direction: alternate; 
 }
 @keyframes deco{
     /* from{
