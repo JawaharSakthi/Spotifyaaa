@@ -14,3 +14,29 @@ body{
     top: 10px;
     left: 25px;
 }
+#image{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 200px;
+    border-radius: 400px;
+}
+h5{
+    color: white;
+    position: relative;
+    bottom: 210px;
+    size: 50px;
+}
+#image2{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 130px;
+    border-radius: 400px;
+}
+.head2{
+    color: white;
+    position: relative;
+    bottom: 150px;
+    size: 50px;
+}
