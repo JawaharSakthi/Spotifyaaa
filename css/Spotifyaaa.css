@@ -1,0 +1,636 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.main_div{
+    display: flex;
+    background-color: rgb(22, 21, 21);
+    position: relative;
+    height: 1500px;
+}
+.left{
+    height: 650px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 10px; 
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    position: sticky;
+    top: 0;  
+}
+.left nav 
+li .trade{
+    font-size: xx-small;
+    text-decoration: none;
+}
+.fa-brands{
+    vertical-align: middle;
+    font-size: 40px;
+    /* color: green; */
+}
+.header{
+    vertical-align: middle;
+    font-size: 23px;
+}
+.fa-solid{
+    vertical-align: middle;
+    font-size: 25px;
+}
+.fa-regular{
+    vertical-align: middle;
+    font-size: 25px;
+}
+.left_nav1{
+    color: whitesmoke;
+    vertical-align: middle;
+    font-size: small;
+    cursor: pointer;
+}
+.left_nav{
+    vertical-align: middle;
+    font-size: small;
+    color: grey;
+    cursor: pointer;
+}
+.left_nav:hover{
+    color: whitesmoke;
+    transition: 0.3s;
+}
+.left nav ul
+li{
+    vertical-align: middle;
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-size: xx-small; */
+    color: whitesmoke;
+    margin-right: 1px;
+    cursor: pointer;
+}
+i{
+    color: whitesmoke;
+}
+.cookies{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 11px;
+}
+.cookies:hover{
+    text-decoration: underline;
+}
+.language{
+    background-color: black;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    padding: 7px 15px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.language .fa-solid{
+    color: white;
+}
+.language:hover .fa-solid{
+    color: black;
+}
+.language:hover{
+    color: black;
+    background-color:whitesmoke;
+    /* transform: scale(1.1,1.1);
+    transition: 1s;  */
+}
+.top{
+    height: 65px;
+    width: 1350px;
+    border: 1px solid black;
+    /* border-radius: ; */
+    background-color: #171717;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    /* background-attachment: local; */
+    background-attachment: scroll;
+    z-index: 9999;
+    position: sticky;
+    top: 0; 
+    cursor: auto;
+}
+.top .fa-solid{
+    color: black;
+    margin-top: 20px;
+    margin-left: 0px; 
+    position: relative;
+    left: 30px;
+    top: 1px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.top .fa-solid:hover{
+    color: whitesmoke;
+}
+.top_buttons{
+    margin-left: 410px;
+    color: rgb(160, 157, 157);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    position: relative;
+    top: 12px;
+}
+.top_buttons2{
+    color: rgb(160, 157, 157);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    position: relative;
+    top: 12px;
+}
+.top_buttons3{
+    color: rgb(160, 157, 157);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    position: relative;
+    top: 12px;
+}
+.top_buttons:hover{
+    color: whitesmoke;
+    transform: scale(1,1);
+    cursor: pointer;
+}
+.top_buttons2:hover{
+    color: whitesmoke;
+    transform: scale(1,1);
+    cursor: pointer;
+}
+.top_buttons3:hover{
+    color: whitesmoke;
+    transform: scale(1,1);
+    cursor: pointer;
+}
+.signup{
+    color: rgb(160, 157, 157); 
+    text-decoration: none;
+    position: relative;
+    left: 70px;
+    top: 0px;
+    position: relative;
+    top: 12px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div nav
+.login{
+    padding: 15px 29px;
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: whitesmoke;
+    left: 100px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    font-size: 13px;
+    top: 7px;
+    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* vertical-align: middle; */
+    cursor: pointer;
+}
+.login:hover{
+    transform: scale(1.1,1.1);
+    transition: 0s;
+}
+.signup:hover{
+    color: whitesmoke;
+}
+.center{
+    background-attachment: fixed;
+    background-attachment: scroll;
+}
+.center .main_body .main_nav #message{
+    color: whitesmoke;
+    font-size: x-large;
+    position: absolute;
+    top: 95px;
+    right: 880px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.center .main_body .main_nav #message:hover{
+    /* text-decoration: underline; */
+    cursor: default;   
+} 
+.center .main_body .main_nav .Show_All{
+    position: absolute;
+    top: 110px;
+    right: 30px;
+    color: rgb(206, 202, 202);
+    font-size: 14px;
+}
+.Show_All:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.Music_box1{
+    position: absolute;
+    right: 860px;
+    top: 150px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    /* z-index: 1; */
+    height: 290px;
+    width: 190px;
+    cursor: pointer;
+}
+.Music_box1:hover{
+    background-color: rgb(65, 63, 63);
+    transition: 0.5s;
+}
+.Music_box1 .mov_description{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    position: relative;
+    top: 15px;
+    left: 60px;
+    /* z-index: 0; */
+}
+.Music_box1 .mus_dir{
+    font-size: 10px;
+    position: absolute;
+    top: 250px;
+    right: 36px;
+    color: rgb(173, 170, 170);
+}
+.PIC1{
+    position: relative;
+    border-radius: 10px;
+    top: 8px;
+    left: 10px;
+    right:8px;
+    width: 170px;
+    height: 200px;
+    /* z-index: 1; */
+    text-decoration: none;
+}
+.Music_box2{
+    position: absolute;
+    right: 650px;
+    top: 150px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    /* z-index: 0; */
+    height: 290px;
+    width: 190px;
+    cursor: pointer;
+}
+.Music_box2:hover{
+    background-color: rgb(65, 63, 63);
+    transition: 0.5s;
+}
+.Music_box2 .mov_description{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    position: relative;
+    top: 15px;
+    left: 60px;
+}
+.Music_box2 .mus_dir{
+    font-size: 10px;
+    position: relative;
+    top: 40px;
+    right: 26px;
+    color: rgb(173, 170, 170);
+}
+.Music_box3{
+    position: absolute;
+    right: 440px;
+    top: 150px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    /* z-index: 0; */
+    height: 290px;
+    width: 190px;
+    cursor: pointer;
+}
+.Music_box3:hover{
+    background-color: rgb(65, 63, 63);
+    transition: 0.5s;
+}
+.Music_box3 .mov_description{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    position: relative;
+    top: 15px;
+    left: 60px;
+}
+.Music_box3 .mus_dir{
+    font-size: 10px;
+    position: relative;
+    top: 40px;
+    right: 36px;
+    color: rgb(173, 170, 170);
+}
+.Music_box4{
+    position: absolute;
+    right: 230px;
+    top: 150px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    /* z-index: 0; */
+    height: 290px;
+    width: 190px;
+    cursor: pointer;
+}
+.Music_box4:hover{
+    background-color: rgb(65, 63, 63);
+    transition: 0.5s;
+}
+.Music_box4 .mov_description{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    position: relative;
+    top: 15px;
+    left: 33px;
+}
+.Music_box4 .mus_dir{
+    font-size: 10px;
+    position: absolute;
+    top: 250px;
+    left: 35px;
+    color: rgb(173, 170, 170);
+}
+.Music_box5{
+    position: absolute;
+    right: 20px;
+    top: 150px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    /* z-index: 0; */
+    height: 290px;
+    width: 190px;
+    cursor: pointer;
+}
+.Music_box5:hover{
+    background-color: rgb(65, 63, 63);
+    transition: 0.5s;
+}
+.Music_box5 .mov_description{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    position: relative;
+    top: 15px;
+    left: 40px;
+}
+.Music_box5 .mus_dir{
+    font-size: 10px;
+    position: absolute;
+    top: 250px;
+    left: 55px;
+    color: rgb(173, 170, 170);
+}
+.mov_description:hover{
+    text-decoration: underline;
+}
+.Playlist{
+    color: whitesmoke;
+    font-size: x-large;
+    position: absolute;
+    top: 470px;
+    right: 850px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Playlist:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.Playlist_box1{
+    position: absolute;
+    right: 860px;
+    top: 525px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    /* z-index: 1; */
+    height: 290px;
+    width: 190px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.Artist{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    z-index: 0;
+    height: 200px;
+    width: 167px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.Playlist_box1 .mus_dir{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    position: relative;
+    top: 230px;
+    left: 53px;
+}
+.Playlist_box1:hover{
+    background-color: rgb(65, 63, 63);
+    transition: 0.5s;
+}
+.Playlist_box2{
+    position: absolute;
+    right: 650px;
+    top: 525px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    /* z-index: 1; */
+    height: 290px;
+    width: 190px;
+    cursor: pointer;
+}
+.Artist2{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    /* z-index: 0; */
+    height: 200px;
+    width: 167px;
+    cursor: pointer;
+}
+.Playlist_box2 .mus_dir{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    position: relative;
+    top: 230px;
+    left: 41px;
+}
+.Playlist_box2:hover{
+    background-color: rgb(65, 63, 63);
+    transition: 0.5s;
+}
+.Playlist_box3{
+    position: absolute;
+    right: 440px;
+    top: 525px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    /* z-index: 1; */
+    height: 290px;
+    width: 190px;
+    cursor: pointer;
+}
+.Artist3{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    z-index: 0;
+    height: 200px;
+    width: 167px;
+    cursor: pointer;
+}
+.Playlist_box3 .mus_dir{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    position: relative;
+    top: 230px;
+    left: 41px;
+}
+.Playlist_box3:hover{
+    background-color: rgb(65, 63, 63);
+    transition: 0.5s;
+}
+.Playlist_box4{
+    position: absolute;
+    right: 230px;
+    top: 525px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    /* z-index: 1; */
+    height: 290px;
+    width: 190px;
+    cursor: pointer;
+}
+.Artist4{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    z-index: 0;
+    height: 200px;
+    width: 167px;
+    cursor: pointer;
+}
+.Playlist_box4 .mus_dir{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    position: relative;
+    top: 230px;
+    left: 41px;
+}
+.Playlist_box4:hover{
+    background-color: rgb(65, 63, 63);
+    transition: 0.5s;
+}
+.Playlist_box5{
+    position: absolute;
+    right: 20px;
+    top: 525px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    /* z-index: 1; */
+    height: 290px;
+    width: 190px;
+    cursor: pointer;
+}
+.Artist5{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    z-index: 0;
+    height: 200px;
+    width: 167px;
+    cursor: pointer;
+}
+.Playlist_box5 .mus_dir{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    position: relative;
+    top: 230px;
+    left: 31px;
+}
+.Playlist_box5:hover{
+    background-color: rgb(65, 63, 63);
+    transition: 0.5s;
+}
+.mus_dir:hover{
+    text-decoration: underline;
+}
+.remove_linkLine{
+    text-decoration: none;
+}
+/* .greetings{
+    position: relative;
+    top: 200px;
+    right: 100px;
+    color: aqua;
+}  */
+/* .Music_box1 .fa-solid{
+    color: whitesmoke;
+    position: relative;
+    left: 75px;
+    bottom: 60px;
+    font-size: 40px;
+} */
+.float_button{
+    position: absolute;
+    left: 155px;
+    top: 267px;
+    opacity: 0;
+    z-index: 11;
+    transition:  0.7s ease-out;
+    
+}
+.float_button a{
+    text-decoration: none;
+    width: 120px;
+    padding: 8px 8px;
+    /* text-align: center; */
+    background-color:   black;
+    color: whitesmoke;
+    border: solid 1px grey;
+    border-radius: 300px;
+    z-index: 1;
+    
+}
+.Music_box1:hover .float_button{
+    top: 175px;
+}
+.Music_box1:hover .float_button{
+    opacity: 1;
+}
+.Music_box2:hover .float_button{
+    top: 175px;
+}
+.Music_box2:hover .float_button{
+    opacity: 1;
+}
+.Music_box3:hover .float_button{
+    top: 175px;
+}
+.Music_box3:hover .float_button{
+    opacity: 1;
+}
+.Music_box4:hover .float_button{
+    top: 175px;
+}
+.Music_box4:hover .float_button{
+    opacity: 1;
+}
+.Music_box5:hover .float_button{
+    top: 175px;
+}
+.Music_box5:hover .float_button{
+    opacity: 1;
+}
+ /* .Music_box1:hover .center{
+    background-color: aqua;
+}  */

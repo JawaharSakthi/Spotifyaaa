@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #2874f0;
+    height: 55px;
+    list-style: none;
+}
+nav .flip{
+    color: white;
+    position: relative;
+    left: 75px;
+    top: 8px;
+}
+nav .explore{
+    color: white;
+    position: fixed;
+    top: 31px;
+    opacity: 0.9;
+    font-size: 11px;
+    left: 170px;
+}
+nav .plus{
+    color: yellow;
+    position: fixed;
+    top: 31px;
+    opacity: 0.7;
+    font-size: 11px;
+    left: 203px;
+}
+nav input{
+    height: 35px;
+    width: 450px;
+    position: fixed;
+    top: 5.3px;
+    /* left: 1px; */
+    right: 650px;
+}
+nav svg{
+    color: black;
+    position: relative;
+    top: 15px;
+    left: 150px;
+}
+nav .login{
+    width: 130px;
+    height: 35px;
+    border-color: white;
+    background-color: white;
+    position: absolute;
+    right: 505px;
+    top: 8px;
+    color: #2874f0;
+} 
+nav .side{
+    color: white;
+    position: relative;
+    left: 180px;
+    top: 15px;
+    font-size: 18px;
+}
+nav .side2{
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 35px;
+    font-size: 18px;
+}
+nav .symbol{
+    font-size: 10px;
+}
+nav .side3{
+    color: white;
+    position: relative;
+    top: 15px;
+    right: 110px;
+    font-size: 18px;
+}

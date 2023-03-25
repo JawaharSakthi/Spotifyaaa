@@ -1,0 +1,27 @@
+pre{
+    /* background-color: aqua; */
+    /* color: snow; */
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-size: 10rem;
+    /* text-align: center; */
+    /* writing-mode: vertical-lr; */
+    background: linear-gradient(rgb(250,100,200),rgb(10,150,100));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* h1::first-letter{
+    color: thistle;
+} */
+body{
+    background:linear-gradient(rgb(200,200,200),rgb(10,10,10));
+    min-height: 100vh;
+}
+/* .helo{
+    font-size: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background:linear-gradient(to right,rgb(17,200,221),rgb(29,234,22));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    writing-mode: vertical-rl;
+} */

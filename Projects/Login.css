@@ -1,0 +1,70 @@
+body{
+    background:linear-gradient(rgb(45,232,123),rgb(12,22,123));
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 400px;
+    width: 400px;
+    border: 1px groove black;
+    border-radius:20px;
+    /* gap: 20px; */
+}
+.heading{
+    position: relative;
+    top: 30px;
+    left: 120px;
+    font-size: xx-large;
+    color: white;
+}
+.form{
+    position: relative;
+    top: 70px;
+    left: 70px;
+}   
+.username{
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    /* text-decoration: underline; */
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.password{
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    /* text-decoration: underline; */
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
+}
+#user{
+    font-size: smaller;
+    background-color:  rgb(55, 55, 58);;
+    padding: 8px 70px 8px 5px;
+    border: 0px black groove;
+    border-radius: 5px;
+    color: white;
+}
+#pass{
+    font-size: smaller;
+    background-color: rgb(55, 55, 58);
+    padding: 8px 70px 8px 5px;
+    border: 0px black groove;
+    border-radius: 5px;
+    color: white;
+}
+.submit{
+    border: groove 0px black;
+    background: linear-gradient(rgb(100,225,204),rgb(102, 221, 80));
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bolder;
+    padding: 20px 99px;
+    cursor: pointer;
+    
+}

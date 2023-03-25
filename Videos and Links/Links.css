@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(rgb(55,45,232),rgb(23,222,100));
+    /* background: linear-gradient(rgb()); */
+    /* background: grey; */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.helo{
+    font-size: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background:linear-gradient(to right,rgb(17,200,221),rgb(29,234,22));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    writing-mode: vertical-rl;
+}
+#Box1{
+    height: 100px;
+    width: 300px;
+    border: black solid 2px;
+    box-shadow: rgba(0, 0, 0, 0.403) 0px 10px 20px;
+    padding: 2rem;
+    border-radius: 2rem;
+    background: white;
+    display: flex;
+    /* resize: both; */
+    
+}
+p{
+    max-width: 25rem;
+    padding: 1rem 0rem;
+}
+h2{
+    writing-mode: vertical-lr;
+}

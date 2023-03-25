@@ -1,0 +1,55 @@
+/* h1{
+    color: #E96479;
+}
+h2{
+    color: rgb(0, 23,55);
+}
+h3{
+    color: rgba(23,45,34,1.0);
+}
+h4{
+    color: hsl(32,56%,43%);
+}
+h5{
+    color: hsla(32, 100%, 55%, 0.9)
+} */
+h1{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
+h1:hover{
+    background-color: #123456;
+}
+h2{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
+h2:hover{
+    background-color: rgb(233, 134, 233);
+}
+h3{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
+h3:hover{
+    background-color: rgba(123,32,45,1.0);
+}
+h4{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
+h4:hover{
+    background-color: hsl(45, 60%, 67%);
+}
+h5{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
+h5:hover{
+    background-color: hsla(45, 34%, 23%, 0.4);
+}

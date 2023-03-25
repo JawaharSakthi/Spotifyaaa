@@ -1,0 +1,260 @@
+body{
+    margin: 0px;
+    /* flex-direction: column; */
+    flex-wrap: nowrap;
+    overflow-x: hidden;  
+    display: flex;
+    flex-direction: column;
+}
+/* #container{
+    /* background-image: url(Pics/muhd-asyraaf-Ti8UF_rJlYo-unsplash.jpg); */
+/* }  */
+#main_div{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(22, 22, 22);
+    border: solid black;
+    margin: 0px;
+}
+#Main-heading{
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    left: 640px;
+    top: -20px;
+    font-size: 40px;
+    color: rgb(49, 47, 47);
+}
+#top-middle{
+    /* background-image: url(../Projects/Pics/Ice_Cream.webp); */
+    /* background-repeat: no-repeat; */
+    /* display: flex; */
+    height: 1000px;
+    width: 100%;
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    margin-left: 0px;
+    background-color: rgb(235, 198, 106);
+}
+a{
+    text-decoration: none;
+}
+.nav_bar{
+    /* font-family: cursive; */
+    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Lobster', cursive; */
+    /* font-family: 'Caveat', cursive; */
+    font-size: 16px;
+    color: rgb(61, 60, 60);
+    /* padding: 40px; */
+    position: relative;
+    top: 20px;
+    /* padding-left: 40px; */
+    left: 40px;
+}
+.nav_bar:hover{
+    color: rgb(107, 105, 105);
+    transition: 0.4s;
+}
+.nav_bar2{
+    /* font-family: cursive; */
+    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Lobster',cursive; */
+    /* font-family: 'Caveat', cursive; */
+    font-size: 16px;
+    color: rgb(61, 60, 60);
+    /* padding: 40px; */
+    position: relative;
+    top: -20px;
+    left: 135px;
+}
+.nav_bar2:hover{
+    color: rgb(107, 105, 105);
+    transition: 0.4s;
+}
+.nav_bar3{
+    /* font-family: cursive; */
+    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Lobster',cursive; */
+    /* font-family: 'Caveat', cursive; */
+    font-size: 16px;
+    color: rgb(61, 60, 60);
+    /* padding: 40px; */
+    position: relative;
+    top: -60px;
+    left: 270px;
+}
+.nav_bar3:hover{
+    color: rgb(107, 105, 105);
+    transition: 0.4s;
+}
+.nav_bar4{
+    /* font-family: cursive; */
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    color: rgb(61, 60, 60);
+    /* padding: 40px; */
+    position: relative;
+    top: -100px;
+    left: 355px;
+}
+.nav_bar4:hover{
+    color: rgb(107, 105, 105);
+    transition: 0.4s;
+}
+.Order_Online{
+    /* font-family: cursive; */
+    font-family: 'Oswald', sans-serif;
+    border: 1px solid black;
+    height: 30px;
+    width: 130px;
+    position: absolute;
+    right: 250px;
+    top: 9px;
+    font-size: 18px;
+    color: rgb(61, 60, 60);
+    padding: 5px 10px;
+    text-align: center;
+}
+.Order_Online:hover{
+    color: white;
+    background-color: black;
+    transition: 0.3s;
+}
+.fa-solid{
+    position: absolute;
+    right: 120px;
+    top: 38px;
+    color: rgb(39, 36, 36);
+    font-size: x-large;
+    /* font-size: small; */
+}
+#Log-in{
+    font-family: 'Oswald', sans-serif;
+    font-size: medium;
+    color: rgb(61, 60, 60);
+    position: relative;
+    top: -4px;
+}
+#Log-in:hover{
+    color: rgb(107, 105, 105);
+    transition: 0.4s;
+}
+#ice_cream{
+    position: absolute;
+    top: 300px;
+    left: 525px;
+    z-index: 1;
+}
+.Desc-Middle{
+    color: antiquewhite;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    position: absolute;
+    top: 500px;
+    left: 555px;
+    z-index: 2;
+}
+.Desc-Middle2{
+    color: antiquewhite;
+    font-family:  'Tilt Warp', cursive;
+    font-size: 140px;
+    font-weight: bolder;
+    position: absolute;
+    top: 465px;
+    left: 220px;
+    z-index: 2;
+
+}
+.Order_Online2{
+    /* font-family: cursive; */
+    font-family: 'Oswald', sans-serif;
+    border: 1px solid black;
+    height: 30px;
+    width: 130px;
+    position: absolute;
+    right: 600px;
+    top: 790px;
+    font-size: 18px;
+    color: rgb(61, 60, 60);
+    padding: 5px 10px;
+    text-align: center;
+    z-index: 2;
+}
+.Order_Online2:hover{
+    color: white;
+    background-color: black;
+    transition: 0.3s;
+}
+#scroll-down1{
+    /* background-image: url(Pics/muhd-asyraaf-Ti8UF_rJlYo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    position: relative;
+    height: 1500px;
+    top: 994px;
+    display: flex;
+    /* z-index: 0; */
+}
+/* #container-2{
+    display: flex;
+
+} */
+#flavour-image{
+    height: 647px;
+    width: 700px;
+    z-index: 9;
+}
+#flavours-div{
+    position: relative;
+    top: -13px;
+    height: 647px;
+    width: 671px;
+    background-color: white;
+    z-index: 9;
+    
+}
+#flavors-txt2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    position: absolute;
+    top: 150px;
+    right: 275px;
+}
+#flavors-txt3{
+    font-family: 'Lobster', cursive;
+    font-size: 22px;
+    color: rgb(46, 39, 39);
+    position: absolute;
+    top: 220px;
+    right: 350px;
+}
+#flavor-desc{
+    font-family: 'Lobster', cursive;
+    position: relative;
+    top: 250px;
+    right: -40px;
+    font-weight: lighter;
+    color: rgb(75, 73, 73);
+}
+.Flavor-Menu{
+    font-family: 'Oswald', sans-serif;
+    border: 1px solid rgb(54, 53, 53);
+    height: 30px;
+    width: 120px;
+    position: absolute;
+    right: 350px;
+    top: 450px;
+    font-size: 18px;
+    color: rgb(36, 35, 35);
+    padding: 2px 2px;
+    text-align: center;
+    z-index: 2;
+}
+.Flavor-Menu:hover{
+    color: white;
+    background-color: black;
+    transition: 0.3s;
+}

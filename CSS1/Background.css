@@ -1,0 +1,21 @@
+/* body{
+    background-image: url(../HTML/IMAGES/dog-7671355__340.webp);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-attachment: fixed;
+    background-size: cover;
+
+}   
+pre{
+    color: antiquewhite;
+} */
+div{
+    border: 2px dotted aqua;
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    background-image: url(../HTML/IMAGES/dog-7671355__340.webp);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: center;
+}

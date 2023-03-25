@@ -1,0 +1,22 @@
+#demo{
+    height: 600px;
+    width: 600px;
+    border: 5px solid red;
+    overflow: auto;
+    position: relative;
+    top: 150px;
+}
+
+/* fixed */
+#demo img{
+    position: fixed;
+    top: 10px;
+    left: 100px;
+} 
+
+/* Absolute */
+#demo img{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+} 
