@@ -1,0 +1,21 @@
+.main_div{
+    width: 2700px;
+    height: 300px;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+.image_div .image1{
+    width: 900px;
+    height: 400px;
+    /* position: relative; */
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+}
+.image1{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}

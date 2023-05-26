@@ -1,3 +1,6 @@
+a{
+    font-size: 50px;
+}
 a:link{
     color: aqua;
 }
@@ -10,12 +13,10 @@ a:hover{
 a:active{
     color: orangered;
 }
-div{
-    height: 200px;
-    width: 300px;
+/* div{
     border: 10px solid red;
     background-color: yellow;
 }
 div:hover{
     background-color: red;
-} 
+}  */

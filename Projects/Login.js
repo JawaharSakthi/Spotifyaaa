@@ -41,53 +41,21 @@
 
 // local_Storage!
 
-function validateForm(){
-    var userName=document.getElementById('user').value;
-    var passWord=document.getElementById('pass').value;
-    // alert(userName + passWord );
-
-    var user=localStorage.setItem('Username',userName);
-    var pass=localStorage.setItem('Password',passWord);
-
-    var user=localStorage.getItem('Username',userName);
-    var pass=localStorage.getItem('Password',passWord);
-
-    var a,b;
-
-    a='jawahar';
-    b='jawahar123';
-
-    if(user==a)
-    {
-        if(pass==b)
-        {
-            alert('Login Successful!')
-        }
-        else{
-            alert('Invalid Password!')
-            return false;
-        }
-    }
-    else{
-        alert('Invalid Username!')
-        return false;
-    }
-}
-
-//session storage
-
-// function validateForm() {
+// function validateForm(){
 //     var userName=document.getElementById('user').value;
 //     var passWord=document.getElementById('pass').value;
+//     // alert(userName + passWord );
+    
+//     var user=localStorage.setItem('Username',userName);
+//     var pass=localStorage.setItem('Password',passWord);
 
-//     var user=sessionStorage.setItem('USERNAME',userName);
-//     var pass=sessionStorage.setItem('PASSWORD',passWord);
+//     var user=localStorage.getItem('Username',userName);
+//     var pass=localStorage.getItem('Password',passWord);
 
-//     var user=sessionStorage.getItem('USERNAME',userName);
-//     var pass=sessionStorage.getItem('PASSWORD',passWord);
+//     var a,b;
 
-//     var a="laxman";
-//     var b="laxman";
+//     a='jawahar';
+//     b='jawahar123';
 
 //     if(user==a)
 //     {
@@ -106,3 +74,34 @@ function validateForm(){
 //     }
 // }
 
+// session storage
+
+function validateForm() {
+    var userName=document.getElementById('user').value;
+    var passWord=document.getElementById('pass').value;
+
+    var user=sessionStorage.setItem('USERNAME',userName);
+    var pass=sessionStorage.setItem('PASSWORD',passWord);
+
+    var user=sessionStorage.getItem('USERNAME',userName);
+    var pass=sessionStorage.getItem('PASSWORD',passWord);
+
+    var a="jawahar";
+    var b="jawahar123";
+
+    if(user==a)
+    {
+        if(pass==b)
+        {
+            alert('Login Successful!')
+        }
+        else{
+            alert('Invalid Password!')
+            return false;
+        }
+    }
+    else{
+        alert('Invalid Username!')
+        return false;
+    }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .gp{
+            height: 300px;
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: chartreuse;
+        }
+        .p{
+            height: 200px;
+            width: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(68, 170, 170);
+        }
+        .c{
+            height: 100px;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(255, 217, 0);
+        }
+    </style>
+</head>
+<body>
+
+    
+    <div class="gp">grandparent
+        <div class="p">parent
+            <div class="c">child</div>
+        </div>
+    </div>
+
+    <script src="Eventpropagation.js"></script>
+</body>
+</html>

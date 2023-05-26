@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 5;
+}
+#main{
+    height: 500px;
+    width: 800px;
+    border: 3px solid black;
+}
+.item1{
+    height: 150px;
+    width: 150px;
+    border: 5px pink groove;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.item2{
+    height: 150px;
+    width: 150px;
+    border: 5px pink groove;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.item3{
+    height: 150px;
+    width: 150px;
+    border: 5px pink groove;
+    border-radius: 10px;
+    background-color: aqua;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    /* justify-content: space-evenly; */
+    /* align-items: flex-start; */
+    /* height: 80vh; */
+    /* flex-wrap: wrap; */
+    /* align-content: space-evenly; */
+    /* gap: 1rem; */
+}
+.item1{
+    /* flex-grow: 0; */
+    /* flex-shrink: 5; */
+    /* flex-basis: 0; */
+    /* flex: 1; */
+    align-self: self-start;
+    order: 1;
+}
+.item2{
+    order: 2;
+}
+
+/* <_-------CSS HOVER PROPERTY TO CHANGE THE BACKGROUND
+WITH THE HELP OF CHILD--------> */
+body:has(.item2:hover) #container{
+    background: linear-gradient(to right,blue,red);
+    transition-duration: 2s;
+}

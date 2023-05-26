@@ -63,7 +63,7 @@ console.log(g);
 // console.log(h); //error
 
 //Boolean_Topic
-console.log(!true);`
+console.log(!true);
 console.log(!false);
 
 let i=Boolean(1);

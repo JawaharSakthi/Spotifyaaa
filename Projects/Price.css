@@ -1,0 +1,116 @@
+body{
+    background: linear-gradient(white,darkviolet);
+    min-height: 100vh;
+}
+#msg1{
+    position: absolute;
+    top: -40px;
+    left: 60px;
+    font-size: larger;
+    /* font-weight: bolder; */
+    background: linear-gradient(yellow,rgb(35, 145, 35));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#msg2{
+    position: absolute;
+    top: -40px;
+    left: 440px;
+    font-size: larger;
+    /* font-weight: bolder; */
+    background: linear-gradient(black,white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#msg3{
+    position: absolute;
+    top: -40px;
+    right: 50px;
+    font-size: larger;
+    /* font-weight: bolder; */
+    background: linear-gradient(rgb(241, 37, 37),grey);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.PICS{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50px;
+    left: 140px;
+}
+#textBox1{
+    position: absolute;
+    top: 310px;
+    left: 20px;
+    border: 2px solid;
+    height: 40px;
+    border-radius: 10px;
+}
+#textBox2{
+    position: absolute;
+    top: 310px;
+    left: 430px;
+    border: 1px solid;
+    height: 40px;
+    border-radius: 10px;
+}
+#textBox3{
+    position: absolute;
+    top: 310px;
+    right: 40px;
+    border: 1px solid;
+    height: 40px;
+    border-radius: 10px;
+}
+#button1{
+    position: absolute;
+    top: 370px;
+    left: 60px;
+    border: 1px solid;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkorchid;
+}
+#button1:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+#button2{
+    position: absolute;
+    top: 370px;
+    left: 470px;
+    border: 2px solid;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkorchid;
+}
+#button2:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+#button3{
+    position: absolute;
+    top: 370px;
+    right: 70px;
+    border: 1px solid;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkorchid;
+}
+#button3:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
